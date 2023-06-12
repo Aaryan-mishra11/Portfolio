@@ -78,9 +78,11 @@ section{
         
         height: 300px;
         width: 300px;
-        padding: 50px 30px 10px;
+        padding: 50px 0px -1px;
         margin-left: 150px;
+        border-radius: 139px;
         animation: floatImage 4s ease-in-out infinite;
+        box-shadow: 0 0 3rem var(--main-color);
         
        
     
@@ -455,6 +457,7 @@ span{
     }
     .portfolio h2{
         margin-bottom: 3rem;
+        padding-bottom: 10px;
     }
     .portfolio-container {
         grid-template-columns: repeat(2,1fr);
