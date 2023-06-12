@@ -31,21 +31,21 @@
         <div class="home-content">
             <h3>Hello,It's Me</h3>
             <h1>Aaryan Mishra</h1>
-            <h3>And I'm a <span>Frontend Developer!</span></h3>
+            <h3>And I'm a <span id="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur
                  adipisicing elit. Beatae, consectetur?</p>
 
         <div class="social-media">
-            <a href=""><i class='bx bxl-facebook-circle'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.facebook.com/aaryan.mishra.98031506"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://twitter.com/AaryanMish10093"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/r_yan2003/?hl=en"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/aaryan-mishra-6b76bb251/"><i class='bx bxl-linkedin'></i></a>
 
         </div> 
         <a href="#" class="btn">Download CV</a>   
         </div>
         <div class="home-image">
-            <img src="fotor_2023-6-8_19_29_42.png" height="300px" width="300px">
+            <img src="fotor_2023-6-8_19_29_42.png" height="400px" width="300px">
         </div>
         
     </section>
@@ -54,7 +54,7 @@
     <!-- about-section-design -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="fotor_2023-6-8_19_29_42.png" alt=""  height="300px" width="300px" >
+            <img src="fotor_2023-6-8_19_29_42.png" alt=""  height="400px" width="300px" >
         </div>
 
 
@@ -170,19 +170,27 @@
 
 
     <!-- java-script-section -->
-    <script src="javas.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <script src="https://unpkg.com/scrollreveal">
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const typed = new Typed('#multiple-text', {
+            strings: ['Frontend Developer', 'Graphics Developer'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop:true
         
-    ScrollReveal({ 
-        reset: true,
-        distance: '80px',
-        duration: 2000,
-        delay: 200
-     });
-
-     ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
+        
+           
+        });
     </script>
+    
+
+    <script src="javas.js"></script>
 
 
   
